@@ -1,4 +1,4 @@
-public class FoodItem
+public class FoodItem<F>
 {
     // Properties to store basic nutrition information
     public string Name { get; set; }
