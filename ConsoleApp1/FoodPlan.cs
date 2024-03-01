@@ -10,16 +10,23 @@ public class FoodPlan<P>
      will serve all iterations displayed. */
     private Random random;
     private Func<P> getRandomGene;
-    private Func<float,int> fitnessFunction;
-
-    public FoodPlan(int size, Random random , Func<P> getRandomGene ,Func<float,int> fitnessFunction, bool shouldInitGene= true)
+    private Func<int,float> fitnessFunction;
+    
+    private Func<P, int> getNutritionValue;
+ 
+    public FoodPlan(int size, Random random , Func<P> getRandomGene ,Func<int,float> fitnessFunction, bool shouldInitGene= true)
     {
         Plan = new P[size];
         this.random = random;
         this.getRandomGene= getRandomGene;
+       // checks to make sure it should run through and collect a new random gene 
+       if (shouldInitGene) 
+       {
         for(int i=0 ;i <Plan.Length;i++)
         {
             Plan[i] = getRandomGene();
+        
+        }
         }
     }
     public float CalculateFitness(int index)
