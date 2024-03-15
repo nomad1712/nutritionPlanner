@@ -37,7 +37,7 @@ public class Meals{
             totalFat += foodItem.Fat;
         }
 
-        return totalCalories * 2 + totalProtein * 3 + totalCarbohydrates * 4 + totalFat * 5;
+        return totalCalories * 2 + totalProtein * 3 + totalCarbohydrates * 3 + totalFat * 1;
     }
     public void DisplayInfo()
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "c:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "c:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "c:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "c:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\TJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\obj\\",
+        "outputPath": "c:\\Users\\TJ\\Desktop\\Niu\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TJ\\AppData\\Roaming\\NuGet\\NuGet.Config"

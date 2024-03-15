@@ -75,7 +75,7 @@ FoodItem tilapia = new FoodItem("Tilapia", 1.6f, 26f, 0f, 128f);
         }
 
         // Set the target nutrient value and GA parameters
-        int targetNutrition = 50;
+        int targetNutrition = 200;
         int populationSize = 100;
         float mutationRate = 0.01f;
 
